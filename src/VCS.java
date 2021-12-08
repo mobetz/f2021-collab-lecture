@@ -86,6 +86,33 @@ public class VCS {
          */
         FizzBuzz(100);
 
+        /*
+
+        Now, let's go take a look at our stage again.
+        We can see that our VCS.java file appears in the list of unstaged changes. Let's take a look at what the file
+        looks like when we view it.
+        Our file is showing us line by line what changed in the file:
+           - Green lines are the 'new' version of the code.
+           - Grey/Red lines are the 'old' version of the code.
+
+
+        In addition to viewing this in IntelliJ, we can view the same thing using the 'git diff' command.
+        To save the changes and my second version of the command, I can just create a second commit.
+
+        Now, let's go look at our log again.
+
+        In the log, we can see that both changes are listed.
+        If we right click on the files on the right of the panel, we can compare the version from any commit to the
+        current version of the file. (we can also do this with git diff -c <commit_id>.)
+
+        If we want to 'rewind' time, we are able to do that by 'checking out' to reload an earlier one of our save
+        point commits. We can do this by right clicking the commit we want in the log, or performing 'git checkout <id>'.
+
+        Before we do that, we should make sure we save everything we're working on right now to a commit!
+
+
+         */
+
     }
 
 
