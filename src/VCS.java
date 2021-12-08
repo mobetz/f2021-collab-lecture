@@ -116,6 +116,21 @@ public class VCS {
         What if we wanted to get the best of both worlds, and have all the changes from both branches of the history?
         We can do that with one final command for today: git merge. Git merging lets us take two different branches, and
         squash their changes together.
+
+
+        To merge in IntelliJ, we can right click the other branch we want to merge, and select the merge option.
+
+        If we look at the diff panel for this merge, we can see three panes.
+
+        The panes on the left and right show us both timelines, and the middle shows the final result.
+        Sometimes, you might have to make touch ups here when git can't figure out which copy of the code you want to
+        use. However, everything looks good for us, so we're ready to commit!
+
+        Git is an invaluable tool for helping us keep track of the way our code has changed over time. We can even use
+        branches to carry out different 'experiments' on our code, and only keep those that work out!
+
+        Next class, we'll see how git also has useful features for letting multiple people work together.
+
          */
 
     }
