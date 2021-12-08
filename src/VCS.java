@@ -118,5 +118,11 @@ public class VCS {
         }
     }
 
+    /*
+    Now, let's go look at the log again.
+    We've ended up with two different 'branches' in the history of our commit! Let's try checking out the earlier one
+    again.
+
+     */
 
 }
