@@ -84,19 +84,22 @@ public class VCS {
         Then, we can commit, either by typing 'git commit -m "<message>"', or by going to the Git menu and selecting the
         "Commit" option. In the commit dialog, we're able to write a helpful descriptive message of the changes we made.
          */
+        FizzBuzz(100);
 
     }
 
 
     public static void FizzBuzz(int counter) {
-        if ( counter % 3 == 0 && counter % 5 == 0 ) {
-            System.out.println("FizzBuzz");
-        } else if ( counter % 3 == 0 ) {
-            System.out.println("Fizz");
-        } else if ( counter % 5 == 0 ) {
-            System.out.println("Buzz");
-        } else {
-            System.out.println(counter);
+        for ( int i = 1; i < counter; i++ ) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
         }
     }
 
