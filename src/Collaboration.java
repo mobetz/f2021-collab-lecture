@@ -53,6 +53,12 @@ public class Collaboration {
 
         We need to push again to make our changes appear.
 
+        However, what if someone else makes changes to the code? In that case, we can "git pull" to bring changes from
+        the remote back to our local copy of the code.
+
+        One important note: when you are making local changes, it is often beneficial to make those changes in a branch
+         separate from  the branch you're pulling. If you don't, you'll need to do a merge immediately, which might be
+         tricky!
          */
     }
 }
