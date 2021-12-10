@@ -59,6 +59,8 @@ public class Collaboration {
         One important note: when you are making local changes, it is often beneficial to make those changes in a branch
          separate from  the branch you're pulling. If you don't, you'll need to do a merge immediately, which might be
          tricky!
+
+         Watch -- we're going to make one set of changes in this file.
          */
     }
 }
